@@ -71,7 +71,7 @@ class TestStartPage(BaseTest):
             - Verify Error message
         """
         # fill invalid username
-        start_page.login(" ", "555444")
+        start_page.login(" ", "5555544444")
         self.log.info("Fields are filled invalid USERNAME")
         # verify error message
         start_page.verify_incorrect_login()
